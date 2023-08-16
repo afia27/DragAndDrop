@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Drag and Drop</title>
+</head>
+<body>
+    <section class="draggable-elements">
+        <i class="fa-brands fa-meta draggable" draggable="true" style="color: #1e3050;" id="meta"></i>
+        <i class="fa-brands fa-twitter draggable" draggable="true" style="color: #1e3050;" id="twitter"></i>
+        <i class="fa-brands fa-google draggable" draggable="true" style="color: #1e3050;" id="google"></i>
+        <i class="fa-brands fa-apple draggable" draggable="true" style="color: #1e3050;" id="apple"></i>
+        <i class="fa-brands fa-microsoft draggable" draggable="true" style="color: #1e3050;" id="microsoft"></i>
+      </section>
+      <section class="droppable-elements">
+        <div class="droppable" data-draggable-id="microsoft"><span>Microsoft</span></div>
+        <div class="droppable" data-draggable-id="google"><span>Google</span></div>
+        <div class="droppable" data-draggable-id="meta"><span>Meta</span></div>
+        <div class="droppable" data-draggable-id="apple"><span>Apple</span></div>
+        <div class="droppable" data-draggable-id="twitter"><span>Twitter</span></div>
+      </section>
+    <script src="https://kit.fontawesome.com/2ee2ca9f3b.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
